@@ -3130,7 +3130,7 @@ ServiceType         : Win32ShareProcess
 >
 ```
 
-<img src="s1.png" />
+<img src="si1.png" />
 
 ## Task 9
 
@@ -3139,7 +3139,7 @@ ServiceType         : Win32ShareProcess
 > 
 ```
 
-<img src="s2.png" />
+<img src="si2.png" />
 
 ```powershell
 > New-Item | Out-GridView
@@ -3154,7 +3154,7 @@ Path[0]:
 > 
 ```
 
-<img src="s3.png" />
+<img src="si3.png" />
 
 ```powershell
 > Get-AuthenticodeSignature | Out-GridView
