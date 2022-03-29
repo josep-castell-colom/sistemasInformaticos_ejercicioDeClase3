@@ -60,6 +60,21 @@ En línea: 1 Carácter: 1
 
 ```
 
+Si ejecutamos `Update-Help` en modo administrador recibimos el siguiente mensaje:
+
+```powershell
+C:\Windows\system32> Update-Help
+    Update-Help : No se pudo actualizar la Ayuda para los módulos 'ConfigDefender, ConfigDefenderPerformance, PSReadline'
+con las referencias culturales de interfaz de usuario {es-ES} : No se puede recuperar el archivo XML HelpInfo para la
+referencia cultural de la interfaz de usuario es-ES. Asegúrese de que la propiedad HelpInfoUri del manifiesto del
+módulo sea válida o compruebe la conexión de red e intente ejecutar el comando de nuevo.
+En línea: 1 Carácter: 1
++ Update-Help
++ ~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [Update-Help], Exception
+    + FullyQualifiedErrorId : UnableToRetrieveHelpInfoXml,Microsoft.PowerShell.Commands.UpdateHelpCommand
+```
+
 ## Task 1
 
 ```powershell
